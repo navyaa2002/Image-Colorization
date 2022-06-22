@@ -102,4 +102,4 @@ Here I show you the outputs of the U-Net without adversarial training and U-Net 
 
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/navyaa2002/Image-Colorization-/Master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/navyaa2002/Image-Colorization-/master)
