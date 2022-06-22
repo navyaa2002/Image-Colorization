@@ -99,8 +99,7 @@ Here I show you the outputs of the U-Net without adversarial training and U-Net 
 
 
 
-https://mybinder.org/v2/gh/Image-Colorization/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fnavyaa2002%2FImage-Colorization%2Fblob%2Fmain%2FImage%2520Colorization%2520final.ipynb
 
 
 
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/navyaa2002/Image-Colorization-/Master)
