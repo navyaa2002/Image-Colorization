@@ -77,8 +77,8 @@ We are using a “Patch” Discriminator here. . In a patch discriminator, the m
 5) Creating our Patch Discriminator
 6) Calculating the the GAN losses
 7) Initializing and training our model
-8) Plotting the generator and discriminator losses using matplotlib
-9) Trying another model by pretraining our generator
+8) Trying another model by pretraining our generator
+9) Comparing the results of both models
 
 
 
@@ -101,4 +101,3 @@ Here I show you the outputs of the U-Net without adversarial training and U-Net 
 
 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/navyaa2002/Image-Colorization/main?labpath=https%3A%2F%2Fgithub.com%2Fnavyaa2002%2FImage-Colorization%2Fblob%2Fmain%2FImage%2520Colorization%2520final.ipynb)
