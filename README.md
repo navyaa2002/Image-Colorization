@@ -81,6 +81,19 @@ We are using a “Patch” Discriminator here. . In a patch discriminator, the m
 9) Comparing the results of both models
 
 
+![6](https://user-images.githubusercontent.com/84587362/175291806-39e33ec7-8114-4ca0-bc20-412a4efa8d70.png)
+
+
+
+
+![9](https://user-images.githubusercontent.com/84587362/175293788-103a0055-7b48-4bfb-a41c-2408d4ac41d9.png)
+
+
+
+
+![10](https://user-images.githubusercontent.com/84587362/175294378-4df3fd24-f04c-49fc-a45b-d312f25ac625.png)
+
+
 
 ### New Model- Pretraining our U-Net Generator
 
@@ -95,9 +108,18 @@ We are going to use a pretrained ResNet18 as the backbone of my U-Net and to acc
 ### Comparing the results of the pretrained U-Net with and without adversarial training
 
 The U-Net we built with the ResNet18 backbone is already awesome in colorizing images after pretraining with L1 Loss only (a step before the final adversarial training). But, the model is still conservative and encourages using gray-ish colors when it is not sure about what the object is or what color it should be. However, it performs really awesome for common scenes in the images like sky, tree, grass, etc.
-Here I show you the outputs of the U-Net without adversarial training and U-Net with adversarial training to better depict the significant difference that the adversarial training is making in our case:
+Here I show you the outputs of the U-Net without adversarial training and U-Net with adversarial training to better depict the significant difference that the adversarial training is making in our case even using less number of epochs (20 as compared to without pretraining that is 100):
+
+
+
+![8](https://user-images.githubusercontent.com/84587362/175292598-89242219-ac0a-4e5e-9ff1-c6d2cff11241.png)
+
+Using Pretrained generator
 
 
 
 
 
+![7](https://user-images.githubusercontent.com/84587362/175292634-228acf4c-da0f-4ae2-949b-0f8af4fb7a54.png)
+
+Without Pretraining
